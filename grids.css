@@ -1,0 +1,205 @@
+#home {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows:(auto,auto,auto,auto,auto,auto,auto,auto,auto,auto);
+    grid-row-gap: 30px;
+   
+  
+    
+}
+
+
+.imgbluerect{
+    
+    display:grid;
+    grid-column-start:9;
+    grid-row-end:3;
+    
+    margin-top:-370px;
+    margin-bottom: 100px;
+    margin-left: -40px;
+    
+    z-index:1;
+   
+}
+    
+.imgbluerect img{
+    height: 370px;
+    width: auto;
+}
+
+.ellipsepink{
+    display: grid;
+      position: relative;
+    grid-column:7/8;
+    grid-row-start:1;
+    margin-top: -64px;
+    margin-left: 85px;
+    z-index:1;
+
+    
+}
+
+.ellipsepink img{
+    width: 200px;
+    height: auto;
+  
+}
+
+.lera{
+    display: grid;
+    grid-column:2/5;
+    margin-top: 130px;
+    margin-left: 65px;
+    
+    z-index: 4;
+   
+}
+
+.lera img{
+    max-height: 33vw; 
+  
+}
+
+.pinkline{
+    display: grid;
+    z-index: 3;
+    grid-column: 2/6;
+    grid-row:2/auto;
+    mix-blend-mode: multiply;
+    
+    
+}
+
+.pinkline img{
+   min-width: 43vw;
+    
+    margin-top:-500px;
+    margin-left: 30px;
+    transform: rotate(40deg);
+    
+}
+
+.blueline{
+    display: grid;
+    z-index: 3;
+    grid-column: 9/auto;
+    grid-row:2/auto;
+    margin-top:-220px;
+    margin-left: 20px;
+   
+}
+
+
+.blueline img{
+     max-width:35vw;
+}
+
+
+.photography{
+    display: grid;
+   
+    mix-blend-mode: difference;
+    margin-top:  120px;
+   
+  
+    font-family: poiret one;
+    letter-spacing: 10px;
+    font-size: 3.6em;
+    z-index: 7;
+    grid-column: 7/9;
+    grid-row: 1/2;
+   
+    margin-left: 80px;
+}
+
+
+
+.opys{
+    display: grid;
+    width: 25%;
+     font-family: poiret one;
+    letter-spacing: 12px;
+    z-index: 8;
+    grid-column: 8/10;
+    grid-row-start:2;
+    font-size: 1.3em;
+    margin-top: -400px;
+    margin-left: -30px;
+    font-weight: 300;
+    
+        }
+
+
+
+@media (max-width: 576px){
+    .opys{
+        font-size: 1.1em;
+        grid-row-start: 5;
+        margin-left: 0px;
+        letter-spacing: 8px;
+    }
+    
+    .lera img{
+        min-width: 50vw;
+        min-height: 50vh;
+        margin-left: -25px;
+        margin-top: px;
+    }
+    
+    .photography{
+        font-size: 2.2em;
+        margin-left: 200px;
+        grid-column: 7/9;
+       margin-top: 200px;
+    }
+    
+    
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px){
+    
+    
+    
+    .photography{
+        font-size: 3em;
+    }
+    
+    
+    .opys{
+        grid-row-start: 2;
+        margin-top:-100px;
+        font-size:1.2em; 
+        margin-left: -10px;
+    }
+    
+      
+    .photography{
+        font-size: 2.3em;
+        margin-left: 200px;
+        grid-column: 7/9;
+       margin-top: 200px;
+    }
+    
+}
+    
+@media (min-width: 768px) and (max-width: 992px){
+    
+    
+    .photography{
+        font-size: 2.6em;
+        margin-left: 150px;
+        
+    }
+    
+    .opys{
+        margin-left: 10px;
+        margin-top: -180px;
+    }
+}
+    
+    
+
+
